@@ -1,0 +1,7 @@
+FROM node:lts as setup
+
+FROM openjdk:15-jdk-slim-buster as compile
+
+FROM debian:stable
+
+CMD ["echo", "hello world"]
