@@ -1,6 +1,6 @@
 FROM node@s as setup
 
-FROM openjdk@sha256:bcc882f4b663f3b5bcdfef2e0884be5125d6d677d5d69a69b838c58498d19cf4 as compile
+FROM openjdk@s as compile
 
 FROM debian@sha256:97cee6b16a4224de19878fca6eaeec09390e285772c3a20b36139ec343d4b606
 
