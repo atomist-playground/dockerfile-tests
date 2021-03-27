@@ -2,6 +2,6 @@ FROM node@s as setup
 
 FROM openjdk@s as compile
 
-FROM debian@sha256:97cee6b16a4224de19878fca6eaeec09390e285772c3a20b36139ec343d4b606
+FROM debian@s
 
 CMD ["echo", "hello world"]
