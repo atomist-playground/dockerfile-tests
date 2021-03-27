@@ -1,4 +1,4 @@
-FROM node@sha256:fe842f5b828c121514d62cbe0ace0927aec4f3130297180c3343e54e7ae97362 as setup
+FROM node@s as setup
 
 FROM openjdk@sha256:bcc882f4b663f3b5bcdfef2e0884be5125d6d677d5d69a69b838c58498d19cf4 as compile
 
