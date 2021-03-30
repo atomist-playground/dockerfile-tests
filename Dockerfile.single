@@ -1,3 +1,5 @@
 FROM ubuntu:rolling
 
+EXPOSE 80
+
 CMD ["echo", "hello world"]
