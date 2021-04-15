@@ -1,4 +1,4 @@
-FROM ubuntu@sha256:0cd296c77ae19141240957d2a57f9a23c95b05f7c930fe5e509a4880dbe0ac13 as builder
+FROM ubuntu@sha256:54bb6cbe5bfa4c5741fc8baa547dc95cf3fdbd5c55a5ed4784fed077e0bf9d87 as builder
 
 FROM alpine:3.10@sha256:451eee8bedcb2f029756dc3e9d73bab0e7943c1ac55cff3a4861c52a0fdd3e98
 
