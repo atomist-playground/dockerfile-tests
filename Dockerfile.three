@@ -1,6 +1,6 @@
 FROM node:lts@sha256:8eb45f4677c813ad08cef8522254640aa6a1800e75a9c213a0a651f6f3564189 as setup
 
-FROM openjdk:17-ea-18-jdk-buster@sha256:32c2e784f77ebe9295fcf0d7ef5a525e427811c35bef52402f5e4aa5bdc89e6d as compile
+FROM openjdk@sha256:32c2e784f77ebe9295fcf0d7ef5a525e427811c35bef52402f5e4aa5bdc89e6d as compile
 
 FROM debian:bullseye@sha256:fb8ea38ba4b82e4ad2fd5093e39b8bf2baa7b611f7cfa8d6068793f0eca33adb
 
