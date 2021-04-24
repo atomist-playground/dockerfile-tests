@@ -1,4 +1,4 @@
-FROM gcr.io/atomist-container-registry/test-base:rolling as builder
+FROM gcr.io/atomist-container-registry/test-base:rolling@sha256:acd1685e8bea8d4567d91c833d2e5db5232d4119f76e4b0ac9525e4f3ca986c4 as builder
 
 # FROM redis:6.2.2-alpine
 
