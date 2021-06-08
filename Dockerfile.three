@@ -2,6 +2,6 @@ FROM node:lts@sha256:af9879e7473d347048c5d5919aa9775f27c33d92e4d58058ffdc08247f4
 
 FROM openjdk:17-ea-19-jdk-buster@sha256:465a2074575d6c4234670247696aabafd047a5dcd3841b7d2c2747768f4d653d as compile
 
-FROM debian:bullseye@sha256:fb8ea38ba4b82e4ad2fd5093e39b8bf2baa7b611f7cfa8d6068793f0eca33adb
+FROM debian:bullseye@sha256:f230ae5ea58822057728fbc43b207f4fb02ab1c32c75c08d25e8e511bfc83446
 
 CMD ["echo", "hello world"]
