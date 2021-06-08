@@ -4,7 +4,7 @@ FROM redis:6.2.2-alpine@sha256:f9577ac6e68c70b518e691406f2bebee49d8db22118fc87ba
 
 FROM mongo:4-bionic@sha256:3dbb3b4b8f33c8a61fa72cf1d05398d6cc09c72aa2a1f664b639d8231b0e83ab
 
-FROM mariadb:10.6
+FROM mariadb:10.6@sha256:171746d0e04cf2e68776c76e9cd89fbde9e693842e98b570675000e7045d023a
 
 FROM centos:8
 
