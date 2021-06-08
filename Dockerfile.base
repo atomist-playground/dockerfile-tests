@@ -6,7 +6,7 @@ FROM mongo:4-bionic@sha256:3dbb3b4b8f33c8a61fa72cf1d05398d6cc09c72aa2a1f664b639d
 
 FROM mariadb:10.6@sha256:171746d0e04cf2e68776c76e9cd89fbde9e693842e98b570675000e7045d023a
 
-FROM centos:6
+FROM centos:6@sha256:dec8f471302de43f4cfcf82f56d99a5227b5ea1aa6d02fa56344986e1f4610e7
 
 ENV foo bar
  
