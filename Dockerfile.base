@@ -8,6 +8,8 @@ FROM mariadb:10.6@sha256:171746d0e04cf2e68776c76e9cd89fbde9e693842e98b570675000e
 
 FROM centos:8@sha256:5528e8b1b1719d34604c87e11dcd1c0a20bedf46e83b5632cdeac91b8c04efc1
 
+FROM consul:1.8
+
 ENV foo bar
  
   
