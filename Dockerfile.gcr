@@ -1,4 +1,4 @@
 FROM gcr.io/distroless/static:nonroot@sha256:be5d77c62dbe7fedfb0a4e5ec2f91078080800ab1f18358e5f31fcc8faa023c4 as builder
 
 # test
-FROM clojure:lein-2.9.6@sha256:ae502ccd50051731ae5de8921c1ed83ab1c3d32257f6fdd84eefd7a58da44ec5
+FROM clojure:lein-2.9.6@sha256:4545e63d7773e3ade3700646c590ca1c82b4ffcda609e3c5661613c92b923983
