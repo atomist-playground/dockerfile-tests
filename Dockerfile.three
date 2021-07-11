@@ -1,7 +1,7 @@
-FROM node:lts@sha256:af9879e7473d347048c5d5919aa9775f27c33d92e4d58058ffdc08247f4bd902 as setup
+FROM node:lts@sha256:0c558991de47e614588a61f9cc90afdcf034c6fc641d3ab650c9570a98b37605 as setup
 
-FROM openjdk:17-oracle@sha256:6e50bada442747e55268f5e3733a29101c71461a6b901bd5cb1ac5d6267ab206 as compile
+FROM openjdk:17-oracle@sha256:0f7951c05cdb40f4f767157ad6480b0b9545705e9ca38375338abf8562a5a3e6 as compile
 
-FROM debian:bullseye@sha256:f230ae5ea58822057728fbc43b207f4fb02ab1c32c75c08d25e8e511bfc83446
+FROM debian:bullseye@sha256:9658b05d2e60411681aac306ebceb897d4994854cb2d250187e6251156c995a1
 
 CMD ["echo", "hello world"]
