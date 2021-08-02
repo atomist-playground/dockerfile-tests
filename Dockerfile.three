@@ -1,4 +1,4 @@
-FROM node:lts@sha256:976c9107158a1c85ab0702aec5b1d56bbb85de493ca50794e545a0271421e028 as setup
+FROM node:lts@sha256:cd98882c1093f758d09cf6821dc8f96b241073b38e8ed294ca1f9e484743858f as setup
 
 FROM openjdk:17-oracle@sha256:df05b87e3b713faac2991b3cdc75e4277acbb6fe8345619a34e1d78564d558ee as compile
 
