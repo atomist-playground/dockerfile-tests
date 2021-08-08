@@ -2,13 +2,13 @@ FROM gcr.io/atomist-container-registry/test-base:rolling@sha256:e0423a639ba5548d
 
 FROM redis:6@sha256:cd0c68c5479f2db4b9e2c5fbfdb7a8acb77625322dd5b474578515422d3ddb59
 
-FROM mongo:4.2-bionic@sha256:3b244e5de3e9825edad1dd2d992dd70e7ad01ff70cb7c5c1f9021977e1e65dac
+FROM mongo:4.2-bionic@sha256:8a7ddebb07ce7962962ded9f1470607d70ae42379eb75483e44a58d39aeb7234
 
 FROM mariadb:10.6@sha256:3b6f9fa1d406e168998d62501b2ee4f27d53138bebfcdac03540758996c5ff1d
 
 FROM centos:8@sha256:5528e8b1b1719d34604c87e11dcd1c0a20bedf46e83b5632cdeac91b8c04efc1
 
-FROM consul:1.8
+FROM consul:1.8@sha256:a13d57387ec0ef2fde99eb42198d4302540ae7d451b561dff4d42b2b236f43fe
 
 ENV foo bar
  
