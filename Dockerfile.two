@@ -1,5 +1,5 @@
 FROM ubuntu:rolling@sha256:0d6c1371da7b3f53eab63fa060b375339d883eb6e67ab413ebf77f9eadd6700e as builder
 
-FROM alpine:3.11@sha256:6cf3d8abc08cf3792d590152d7a4628ec827621f55b1d3150383f5f39335d6eb
+FROM alpine:3.11
 
 CMD ["echo", "hello world 1"]
