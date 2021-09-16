@@ -1,6 +1,6 @@
 FROM gcr.io/atomist-container-registry/test-base:rolling@sha256:e0423a639ba5548d7ccef447d1641bc7750d77696d42aad30d66e147e811e180 as builder
 
-FROM redis:6@sha256:cd0c68c5479f2db4b9e2c5fbfdb7a8acb77625322dd5b474578515422d3ddb59
+FROM redis:6@sha256:e595e79c05c7690f50ef0136acc9d932d65d8b2ce7915d26a68ca3fb41a7db61
 
 FROM mongo:4.2-bionic@sha256:8a7ddebb07ce7962962ded9f1470607d70ae42379eb75483e44a58d39aeb7234
 
