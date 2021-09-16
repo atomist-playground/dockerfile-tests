@@ -8,7 +8,7 @@ FROM mariadb:10.6@sha256:4bbee12b1adf299211f844ebbe89563675c46965470dcfa40f5278d
 
 FROM centos:8@sha256:a27fd8080b517143cbbbab9dfb7c8571c40d67d534bbdee55bd6c473f432b177
 
-FROM consul:1.8@sha256:a13d57387ec0ef2fde99eb42198d4302540ae7d451b561dff4d42b2b236f43f1
+FROM consul:1.8@sha256:aa2484c8820f93d22f0a3c42b76c4d880bf83b5d4e4fa7780fc2ddef0fa5583b
 
 ENV foo bar
  
