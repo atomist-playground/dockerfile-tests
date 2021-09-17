@@ -5,3 +5,4 @@ FROM openjdk:17-oracle@sha256:50c5e2dcfb2b7564b04919d81992e8a20423c9b0de67ba0e8f
 FROM debian:bullseye
 
 CMD ["echo", "hello world"]
+ 
