@@ -13,3 +13,4 @@ FROM consul:1.8@sha256:a13d57387ec0ef2fde99eb42198d4302540ae7d451b561dff4d42b2b2
 ENV foo bar
  
   
+ 
