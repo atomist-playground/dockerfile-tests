@@ -2,7 +2,7 @@ FROM ubuntu:rolling@sha256:02c0317b899ca5595fa17870cedd9550962dbdb2e0b55def01872
 
 FROM alpine:3.11@sha256:bcae378eacedab83da66079d9366c8f5df542d7ed9ab23bf487e3e1a8481375d
 
-FROM jruby:latest
+FROM jruby:latest@sha256:6b10ab0db09b72a5c8ac4d51ef4df7855f5c568ec6b618b9a00fc1c7ef2f1d7b
 
 CMD ["echo", "hello world 1"]
    
