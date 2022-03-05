@@ -1,4 +1,4 @@
-FROM ubuntu:rolling@sha256:0d6c1371da7b3f53eab63fa060b375339d883eb6e67ab413ebf77f9eadd6700e
+FROM ubuntu:rolling@sha256:02c0317b899ca5595fa17870cedd9550962dbdb2e0b55def018727527b57e2f4
 
 EXPOSE 80
 
