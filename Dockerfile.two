@@ -1,6 +1,6 @@
 FROM ubuntu:rolling@sha256:02c0317b899ca5595fa17870cedd9550962dbdb2e0b55def018727527b57e2f4 as builder
 
-FROM alpine:3.11
+FROM alpine:3.11@sha256:bcae378eacedab83da66079d9366c8f5df542d7ed9ab23bf487e3e1a8481375d
 
 FROM jruby:latest
 
