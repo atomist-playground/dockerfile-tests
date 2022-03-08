@@ -2,7 +2,7 @@ FROM gcr.io/atomist-container-registry/test-base:rolling@sha256:ecd1cadbce6392bd
 
 FROM redis:6@sha256:feb846600a248be6e6afbad39bf5b91afaef1de5524fd85b9b53839d0fd4af96
 
-FROM mongo:4.2-bionic@sha256:8a7ddebb07ce7962962ded9f1470607d70ae42379eb75483e44a58d39aeb7234
+FROM mongo:4.2-bionic@sha256:fe3cb8343d6040f1751b15a555447e593be7a6eaeff0e57f2fa3e75dbad730f2
 
 FROM mariadb:10.6@sha256:52c8d34497fbf8f7ab70369e48c90a82298ed44d95e8174a5e2da18baa9391ae
 
