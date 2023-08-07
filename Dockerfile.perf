@@ -1,4 +1,4 @@
-FROM alpine:3.15
+FROM alpine:3.15@sha256:794bc829ea39d85926be70fedfc9fb17aa4244d82b2fbecb5634b03e5dd97aca
 # 1629295628179 377
  
  
