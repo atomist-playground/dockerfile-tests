@@ -1,8 +1,8 @@
-FROM ubuntu:rolling@sha256:0d6c1371da7b3f53eab63fa060b375339d883eb6e67ab413ebf77f9eadd6700e as builder
+FROM ubuntu:rolling@sha256:7a520eeb6c18bc6d32a21bb7edcf673a7830813c169645d51c949cecb62387d0 as builder
 
-FROM alpine:3.11
+FROM alpine:3.11@sha256:bcae378eacedab83da66079d9366c8f5df542d7ed9ab23bf487e3e1a8481375d
 
-FROM jruby:latest
+FROM jruby:latest@sha256:e00634c0ba3d6eae50220fe7a512d87167650c31f06b73e786163acf8b4a6357
 
 CMD ["echo", "hello world 1"]
    
