@@ -1,14 +1,14 @@
-FROM gcr.io/atomist-container-registry/test-base:rolling@sha256:e0423a639ba5548d7ccef447d1641bc7750d77696d42aad30d66e147e811e180 as builder
+FROM gcr.io/atomist-container-registry/test-base:rolling@sha256:ecd1cadbce6392bddf2c7a20e91a376e437f8c764a199093e3de374ea9fa9109 as builder
 
-FROM redis:6@sha256:cd0c68c5479f2db4b9e2c5fbfdb7a8acb77625322dd5b474578515422d3ddb59
+FROM redis:6@sha256:8e70fd9123f77cc95cfb51ad1e654295ba41676502d063c0042f0bb25ee12e14
 
-FROM mongo:4.2-bionic@sha256:8a7ddebb07ce7962962ded9f1470607d70ae42379eb75483e44a58d39aeb7234
+FROM mongo:4.2-bionic@sha256:4dd9ff05e216a482707cf0e7948c8a3b312403bf25bb37c8ca9d5f30b779459f
 
-FROM mariadb:10.6@sha256:52c8d34497fbf8f7ab70369e48c90a82298ed44d95e8174a5e2da18baa9391ae
+FROM mariadb:10.6@sha256:fcbe381e5fef20c7a2932b52a070f58987b770c651aedf705332e54d1dfd465f
 
-FROM centos:8@sha256:5528e8b1b1719d34604c87e11dcd1c0a20bedf46e83b5632cdeac91b8c04efc1
+FROM centos:8@sha256:a27fd8080b517143cbbbab9dfb7c8571c40d67d534bbdee55bd6c473f432b177
 
-FROM consul:1.8@sha256:a13d57387ec0ef2fde99eb42198d4302540ae7d451b561dff4d42b2b236f43f1
+FROM consul:1.8@sha256:93cb9286a1ec5e084193fd2b625977df74003a81e8bc373f5adf900bb87318d4
 
 ENV foo bar
  
