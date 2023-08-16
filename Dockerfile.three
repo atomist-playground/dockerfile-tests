@@ -1,6 +1,6 @@
 FROM node:lts@sha256:8ffeb43c41c0afcd659b8837748ac55530676f47f464be50784650caae6af046 as setup
 
-FROM openjdk:17-oracle@sha256:50c5e2dcfb2b7564b04919d81992e8a20423c9b0de67ba0e8fcef9067ec03d02 as compile
+FROM openjdk:17-oracle@sha256:83ffa182a7cfc8313583fe1cc42172a48a021f368a1ff11fe0d957c3b3b8a620 as compile
 
 FROM debian:bullseye
 
